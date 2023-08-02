@@ -39,6 +39,8 @@ h1 {
 
 .countdown-container {
     display: flex;
+    flex-wrap: wrap;
+    /* Ekran boyutlandırırken güzel gözükmesini sağlıyor */
     /* Colum görünümünden row görünümüne geçmesini sağladı */
     background-color: black;
     border-radius: 5px;
