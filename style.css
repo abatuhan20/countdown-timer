@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./theme.jpg");
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    /* Nesnelerin daha kolay centera pozisyonlanabilmesi için var */
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* flexi column olarak gösterdik */
+    align-items: center;
+    justify-content: center;
+    /* gösterdiğimiz columnu centera çektik */
+    
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    color: whitesmoke;
+    margin-top: -10rem;
+    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    background-color: black;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 2px solid;
+    /* border kenarlarına renk verdi */
+}
+
+.countdown-container {
+    display: flex;
+    /* Colum görünümünden row görünümüne geçmesini sağladı */
+    background-color: black;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 2px solid;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    /* 1. si top ve bottom 2. si left right margini */
+    /* box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3); */
+}
+
+.countdown-el {
+    text-align: center;
+    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: 1px;
+
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+
+}
